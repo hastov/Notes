@@ -1,0 +1,34 @@
+//
+//  NoteViewController.swift
+//  Notes
+//
+//  Created by Hristo on 27.11.22.
+//
+
+import UIKit
+
+class NoteViewController: UIViewController {
+    @IBOutlet private weak var textView: UITextView!
+    
+    var manager: NotesManaging?
+    var note: Note?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        textView.text = note?.text
+        textView.becomeFirstResponder()
+    }
+}
+
+extension NoteViewController: UITextViewDelegate {
+    func textViewDidEndEditing(_ textView: UITextView) {
+        if var note = note {
+            note.text = textView.text
+            note.updated = Date()
+            manager?.update(note)
+        } else {
+            let note = Note(text: textView.text, updated: Date())
+            manager?.append(note)
+        }
+    }
+}

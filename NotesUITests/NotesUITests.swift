@@ -2,7 +2,7 @@
 //  NotesUITests.swift
 //  NotesUITests
 //
-//  Created by Guest on 27.11.22.
+//  Created by Hristo on 27.11.22.
 //
 
 import XCTest
