@@ -111,6 +111,7 @@
                     <navigationItem key="navigationItem" id="mth-g9-N23"/>
                     <connections>
                         <outlet property="textView" destination="QPZ-6y-9Ah" id="4Ol-jE-pwV"/>
+                        <outlet property="textViewBottomConstraint" destination="lfD-gq-biL" id="3aF-0g-hKi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2YU-nd-D6u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

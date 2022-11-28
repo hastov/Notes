@@ -19,6 +19,7 @@
 		21B4664F29335BC2003BE2A5 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4664E29335BC2003BE2A5 /* NotesViewController.swift */; };
 		21B4665129336060003BE2A5 /* NotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4665029336060003BE2A5 /* NotesManager.swift */; };
 		21B4665329336076003BE2A5 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B4665229336076003BE2A5 /* Note.swift */; };
+		21C6A2572934A32E003FE313 /* ExtensionsCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C6A2562934A32E003FE313 /* ExtensionsCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		21B4664E29335BC2003BE2A5 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		21B4665029336060003BE2A5 /* NotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesManager.swift; sourceTree = "<group>"; };
 		21B4665229336076003BE2A5 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		21C6A2562934A32E003FE313 /* ExtensionsCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsCommon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				21B4662729335AD7003BE2A5 /* LaunchScreen.storyboard */,
 				21B4665229336076003BE2A5 /* Note.swift */,
 				21B4665029336060003BE2A5 /* NotesManager.swift */,
+				21C6A2562934A32E003FE313 /* ExtensionsCommon.swift */,
 				21B4662A29335AD7003BE2A5 /* Info.plist */,
 			);
 			path = Notes;
@@ -273,6 +276,7 @@
 				21B4661D29335AD5003BE2A5 /* AppDelegate.swift in Sources */,
 				21B4661F29335AD5003BE2A5 /* SceneDelegate.swift in Sources */,
 				21B4665329336076003BE2A5 /* Note.swift in Sources */,
+				21C6A2572934A32E003FE313 /* ExtensionsCommon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

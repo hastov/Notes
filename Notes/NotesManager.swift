@@ -64,18 +64,3 @@ extension NotesManager: Observable {
         observations[observer] = nil
     }
 }
-
-extension Decodable {
-    static func array(
-        from json: Data,
-        decoder: JSONDecoder = JSONDecoder()
-    ) throws -> [Self]? {
-        try decoder.decode([Self].self, from: json)
-    }
-}
-
-extension Collection {
-    subscript (safe index: Index) -> Element? {
-        return indices.contains(index) ? self[index] : nil
-    }
-}

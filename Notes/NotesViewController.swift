@@ -8,7 +8,7 @@
 import UIKit
 
 class NotesViewController: UITableViewController {
-    var manager: (Observable & NotesManaging)? {
+    var manager: (NotesManaging & Observable)? {
         didSet {
             manager?.add(observer: self) {
                 self.tableView.reloadData()
